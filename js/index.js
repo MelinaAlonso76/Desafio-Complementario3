@@ -12,7 +12,8 @@ let opcion = 0
 
 function ingresarAutos(){
     if(autosIngresados>capacidad-1){
-        alert('NO HAY LUGAR DISPONIBLE')
+        alert('Estacionamiento completo')
+        document.getElementById('brand-title').innerHTML = 'ESTACIONAMIENTO LLENO'
     }else{
         let placa = verificoPatente()
         let ingreso = new Date()

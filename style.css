@@ -39,10 +39,10 @@ body {
     box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
 }
 
-.brand-title {
+#brand-title {
     margin-top: 10px;
     font-weight: 900;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: #1DA1F2;
     letter-spacing: 1px;
 }
